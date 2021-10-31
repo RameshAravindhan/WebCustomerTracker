@@ -1,9 +1,7 @@
 package com.springmvc.hibernate.demo.controller;
 
-import com.springmvc.hibernate.demo.dao.CustomerDAO;
 import com.springmvc.hibernate.demo.entity.Customer;
 import com.springmvc.hibernate.demo.service.CustomerService;
-import org.hibernate.query.QueryParameter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
